@@ -1,0 +1,84 @@
+/*Styles for the nav bar*/
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse {
+    background: lightsteelblue;
+    font-family: 'Sue Ellen Francisco',cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1.5px;
+}
+
+.navbar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-nav li {
+    display: inline;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #000;
+    background: cornflowerblue;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+/*Styles for the footer*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 40px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color: lightsteelblue;
+}
+
+/*Styles for the jumbotron*/
+.jumbotron {
+    background-image: url(../ams2.jpg);
+    background-size: 100% 100%;
+    min-height: 400px;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+.card {
+    position: relative;
+    display: block;
+    margin-bottom: .75rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,.125);
